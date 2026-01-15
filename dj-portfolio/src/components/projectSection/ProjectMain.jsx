@@ -20,7 +20,7 @@ const projects=[
         name:'Netflix GPT',
         align:'right',
         image:'images/website-img-3.jpg',
-        link:'#'
+        link:'https://github.com/Dhaval-Joshi898/Netflix-GPT'
     },
     // {
     //     name:'Project 4',
