@@ -7,7 +7,7 @@ import { SiLeetcode } from "react-icons/si";
 const ContactSocial = () => {
   return (
     <div className='flex gap-4'>
-        <SingleContactSocial link="#" Icon={FaGithub}/>
+        <SingleContactSocial link="http://github.com/Dhaval-Joshi898" Icon={FaGithub}/>
         <SingleContactSocial link="#" Icon={FaLinkedin}/>
         <SingleContactSocial link="#" Icon={SiLeetcode}/>
 
