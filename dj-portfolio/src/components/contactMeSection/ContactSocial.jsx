@@ -8,8 +8,8 @@ const ContactSocial = () => {
   return (
     <div className='flex gap-4'>
         <SingleContactSocial link="http://github.com/Dhaval-Joshi898" Icon={FaGithub}/>
-        <SingleContactSocial link="#" Icon={FaLinkedin}/>
-        <SingleContactSocial link="#" Icon={SiLeetcode}/>
+        <SingleContactSocial link="https://www.linkedin.com/in/dhaval-joshi-389a0a264" Icon={FaLinkedin}/>
+        {/* <SingleContactSocial link="#" Icon={SiLeetcode}/>  */}
 
     </div>
   )
