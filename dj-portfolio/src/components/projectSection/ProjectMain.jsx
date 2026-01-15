@@ -22,12 +22,12 @@ const projects=[
         image:'images/website-img-3.jpg',
         link:'https://github.com/Dhaval-Joshi898/Netflix-GPT'
     },
-    // {
-    //     name:'Project 4',
-    //     align:'left',
-    //     image:'images/website-img-4.jpg',
-    //     link:'#'
-    // },
+    {
+        name:'Youtube Clone',
+        align:'left',
+        image:'images/website-img-4.jpg',
+        link:'https://github.com/Dhaval-Joshi898/Youtube-'
+    },
 ]
 
 const ProjectMain = () => {
