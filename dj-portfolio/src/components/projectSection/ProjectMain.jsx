@@ -5,33 +5,29 @@ import SingleProject from './SingleProject'
 
 const projects=[
     {
-        name:'Project 1',
-        year:'March 2025',
+        name:'Green Cart',
         align:'right',
-        image:'images/website-img-1.jpg',
-        link:'#'
+        image:'images/proj1-image.jpg',
+        link:'https://github.com/Dhaval-Joshi898/greenCart'
     },
     {
-        name:'Project 2',
-        year:'April 2025',
+        name:'DevTinder',
         align:'left',
         image:'images/website-img-2.jpg',
-        link:'#'
+        link:'https://github.com/Dhaval-Joshi898/devTinder'
     },
     {
-        name:'Project 3',
-        year:'June 2025',
+        name:'Netflix GPT',
         align:'right',
         image:'images/website-img-3.jpg',
         link:'#'
     },
-    {
-        name:'Project 4',
-        year:'july 2025',
-        align:'left',
-        image:'images/website-img-4.jpg',
-        link:'#'
-    },
+    // {
+    //     name:'Project 4',
+    //     align:'left',
+    //     image:'images/website-img-4.jpg',
+    //     link:'#'
+    // },
 ]
 
 const ProjectMain = () => {
@@ -40,7 +36,7 @@ const ProjectMain = () => {
         <ProjectText/>
         <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
             {projects.map((proj,index)=>{
-               return <SingleProject key={index} name={proj.name} year={proj.year} align={proj.align} image={proj.image} />
+               return <SingleProject key={index} name={proj.name} year={proj.year} align={proj.align} image={proj.image} link={proj.link} />
 
             })}
         </div>
