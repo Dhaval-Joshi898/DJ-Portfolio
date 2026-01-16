@@ -12,7 +12,7 @@ import SkillsMain from "./components/skillSection/SkillsMain";
 
 function App() {
   return (
-    <main className="font-body">
+    <main className="font-body w-full min-h-screen overflow-x-hidden">
       <NavbarMain />
       <HeroMain />
       <HeroGradient />
