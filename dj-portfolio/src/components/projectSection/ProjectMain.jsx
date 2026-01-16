@@ -25,7 +25,7 @@ const projects=[
     {
         name:'Youtube Clone',
         align:'left',
-        image:'images/website-img-4.jpg',
+        image:'images/website-img-2.jpg',
         link:'https://github.com/Dhaval-Joshi898/Youtube-'
     },
 ]
